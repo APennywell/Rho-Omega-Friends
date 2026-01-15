@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donate - Rho Omega & Friends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Rho Omega & Friends</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="scholarships.html">Scholarships</a>
+    <a href="news.html">News & Calendar</a>
+    <a href="board.html">Board Members</a>
+    <a href="sponsorships.html">Sponsorships</a>
+    <a href="donate.html">Donate</a>
+  </nav>
+</header>
+
+<main>
+  <section class="section">
+    <h2>Donate</h2>
+    <p>
+      Your donation directly supports scholarships and community programs. Thank you for your generosity.
+    </p>
+  </section>
+
+  <section class="section">
+    <h3>Donation Form (Placeholder)</h3>
+    <p>
+      In a real site, this would connect to a payment processor (like PayPal, Stripe, etc.).
+      For now, this is a simple HTML form.
+    </p>
+
+    <form>
+      <label for="name">Full Name</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="amount">Donation Amount (USD)</label><br>
+      <input type="number" id="amount" name="amount" min="1" required><br><br>
+
+      <label for="message">Message (optional)</label><br>
+      <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+      <button type="submit" class="btn-primary">Submit Donation</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 Rho Omega & Friends. All rights reserved.
+</footer>
+
+<div id="chat-widget">
+  <div id="chat-header">Chat with us</div>
+  <div id="chat-body">
+    <div id="chat-messages"></div>
+    <input type="text" id="chat-input" placeholder="Type a message and press Enter">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
